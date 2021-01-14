@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Estacionamento</title>
+</head>
+<body>
+    <header>
+        <h1>Estacionamento</h1>
+        <div class="pesquisa">
+            <input type="text" name="campoPesquisa" class="campoPesquisa" placeholder="Digite o número da placa">
+            <button type="submit" class="btn-pesquisa" onclick="pesquisar(LocalStorageInformations)"> <img src="./searchmagnifierinterfacesymbol1_79893.png" alt=""></button>
+        </div>
+    </header>
+    <div class="entradas">
+        <span>Modelo</span>
+        <input type="text" name="modelo" id="modelo" class="campomodelo"  placeholder="Digite o nome do veículo...">
+        <span>Placa</span>
+        <input type="text" name="placa" id="placa" class="campoplaca" placeholder="Digite a placa do veículo...">
+        <button type="submit" class="cadastrar">Cadastrar</button>
+    </div>
+    <hr>
+    <div class="saidas">
+        <div class="modelo">
+            <b>Modelo</b>
+            <ul class="modeloUL">
+                
+            </ul>
+        </div>
+        <div class="placa">
+            <b>Placa</b>
+            <ul class="placaUL">
+                
+            </ul>
+        </div>
+        <div class="entrada">
+            <b>Entrada</b>
+            <ul class="entradaUL">
+                
+            </ul>
+        </div>
+        <div class="finalizar">
+            <b>Finalizar</b>
+            <ul class="finalizaUL">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
